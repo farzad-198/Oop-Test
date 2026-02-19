@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("جوجه جون!");
+            Console.WriteLine("Eshgham");
             //آقایی
         }
     }
