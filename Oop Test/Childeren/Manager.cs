@@ -8,6 +8,13 @@ namespace Oop_Test.Childeren
     internal class Manager : Person
     {
         public string Avdelning { get; set; }
+
+        public Manager()
+        {
+          ClassType ="Manager";
+        }
+
+    
         internal override void PrintInfo()
         {
             base.PrintInfo();

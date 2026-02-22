@@ -7,6 +7,11 @@ namespace Oop_Test.Childeren
 {
     internal class Employee : Person
     {
+        public Employee()
+        {
+            ClassType = "Employee";
+        }
+
         public string Gob { get; set; }
         internal override void PrintInfo()
         {

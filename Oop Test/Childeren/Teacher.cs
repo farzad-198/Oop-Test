@@ -8,7 +8,11 @@ namespace Oop_Test.Childeren
     internal class Teacher : Person
     {
         public string Fild { get; set; }
-       
+
+        public Teacher()
+        {
+            ClassType = "Teacher";   
+        }
 
         internal override void PrintInfo()
         {

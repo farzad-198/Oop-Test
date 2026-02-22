@@ -4,11 +4,13 @@ using System.Text;
 
 namespace Oop_Test.Base
 {
+
     internal abstract class Person
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Family { get; set; }
+        public string? ClassType { get; protected set; } = "";
+        public int Id { get; }
+        public string Name { get; set; } = "";
+        public string Family { get; set; } = "";
         public int Age  { get; set; }
         public int Birthday { get; set; }
         public string City { get; set; }
