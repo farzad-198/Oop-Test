@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            new ManagePerson().Menu();        
+            new ManagePerson().Menu();
+            //salam
         }
     }
 }
