@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Oop_Test
+namespace Oop_Test.Base
 {
     internal abstract class Person
     {
