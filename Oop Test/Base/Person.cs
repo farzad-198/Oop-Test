@@ -17,7 +17,7 @@ namespace Oop_Test.Base
         
         internal virtual void PrintInfo()
         {
-            Console.WriteLine($"Name :{Name}\t Family :{Family}\t Age :{Age}\t Birthday :{Birthday}\t City :{City}");
+            Console.Write($"Name :{Name}\t Family :{Family}\t Age :{Age}\t Birthday :{Birthday}\t City :{City}");
         
         }
     }
