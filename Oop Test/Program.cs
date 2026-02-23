@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             new ManagePerson().Menu();
-            //salam
+            //salam gfdfdgsgsg
+            
         }
     }
 }
